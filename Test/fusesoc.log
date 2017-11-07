@@ -1,0 +1,22 @@
+DEBUG:fusesoc.main:Command line arguments: ['/usr/local/bin/fusesoc', '--verbose', 'sim', '--force', 'mor1kx-generic', '--elf-load', './hello.elf', '--vcd', '--heartbeat=10000', '--testcase', './test']
+DEBUG:fusesoc.config:Looking for config files from /etc/fusesoc/fusesoc.conf:/home/moslem/.config/fusesoc/fusesoc.conf:fusesoc.conf
+DEBUG:fusesoc.config:Found config files in /home/moslem/.config/fusesoc/fusesoc.conf
+DEBUG:fusesoc.config:build_root=/home/moslem/or1k/Test/build
+DEBUG:fusesoc.config:cache_root=/home/moslem/.cache/fusesoc
+DEBUG:fusesoc.config:cores_root=Test
+DEBUG:fusesoc.config:systems_root=/home/moslem/or1k/Test/systems
+DEBUG:fusesoc.coremanager:Checking for cores in Test
+DEBUG:fusesoc.coremanager:Checking for cores in /home/moslem/or1k/Test/systems
+DEBUG:fusesoc.coremanager:Adding core nyuzi_de2_115
+DEBUG:fusesoc.coremanager:Adding core neek
+DEBUG:fusesoc.coremanager:Adding core or1200-generic
+DEBUG:fusesoc.coremanager:Adding core de2
+DEBUG:fusesoc.coremanager:Adding core vscale-generic
+DEBUG:fusesoc.coremanager:Adding core de1
+DEBUG:fusesoc.coremanager:Adding core de0_nano
+DEBUG:fusesoc.coremanager:Adding core atlys
+DEBUG:fusesoc.coremanager:Adding core mor1kx-generic
+DEBUG:fusesoc.coremanager:Adding core sockit
+DEBUG:fusesoc.main:Autodetected 64-bit mode
+DEBUG:fusesoc.main:Colorful output
+DEBUG:fusesoc.main:Verbose output

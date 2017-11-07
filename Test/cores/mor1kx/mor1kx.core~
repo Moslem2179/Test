@@ -1,0 +1,76 @@
+CAPI=1
+[main]
+description = "mor1kx CPU"
+
+[verilog]
+src_files =
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_branch_predictor_simple.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_branch_predictor_saturation_counter.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_branch_prediction.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_bus_if_wb32.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_cache_lru.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_cfgrs.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_cpu_cappuccino.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_cpu_espresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_cpu_prontoespresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_cpu.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_ctrl_cappuccino.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_ctrl_espresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_ctrl_prontoespresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_dcache.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_decode_execute_cappuccino.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_decode.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_dmmu.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_execute_alu.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_execute_ctrl_cappuccino.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_fetch_cappuccino.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_fetch_espresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_fetch_prontoespresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_fetch_tcm_prontoespresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_icache.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_immu.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_lsu_cappuccino.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_lsu_espresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_pic.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_rf_cappuccino.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_rf_espresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_simple_dpram_sclk.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_store_buffer.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_ticktimer.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_true_dpram_sclk.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_wb_mux_cappuccino.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_wb_mux_espresso.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/pfpu32/pfpu32_addsub.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/pfpu32/pfpu32_cmp.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/pfpu32/pfpu32_f2i.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/pfpu32/pfpu32_i2f.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/pfpu32/pfpu32_muldiv.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/pfpu32/pfpu32_rnd.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/pfpu32/pfpu32_top.v
+
+include_files =
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx-defines.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx-sprs.v
+ /home/moslem/or1k/mor1kxRTL/mor1kx/rtl/verilog/mor1kx_utils.vh
+
+tb_src_files = /home/moslem/or1k/mor1kxRTL/mor1kx/bench/verilog/mor1kx_monitor.v
+
+[parameter trace_enable]
+datatype    = bool
+description = Enable mor1kx instruction trace
+paramtype   = plusarg
+scope       = public
+
+[parameter trace_to_screen]
+datatype    = bool
+description = Output mor1kx instruction trace to screen
+paramtype   = plusarg
+scope       = public
+
+[provider]
+name = github
+user = openrisc
+repo = mor1kx
+version = master
+cachable = false
